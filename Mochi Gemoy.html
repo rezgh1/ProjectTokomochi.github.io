@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toko Mochichi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="image/logo.jpeg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-secondary">
+    <div class="container border mb-4 mt-4 rounded-3 shadow bg-white">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>Mochichi</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Produk Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#Tentang-kami">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Cara Order</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kategori
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#matcha">Matcha</a></li>
+                  <li><a class="dropdown-item" href="#" alt="Coklat">Coklat</a></li>
+                  <li><a class="dropdown-item" href="#">Keju</a></li>
+                  <li><a class="dropdown-item" href="#">Taro</a></li>
+                  <li><a class="dropdown-item" href="#">Strawberry</a></li>
+                  <li><a class="dropdown-item" href="#">Mango</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Cari produk..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Cari</button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner -->
+      <div class="px-3 mb-3">
+        <img src="image/gbwa.jpeg" class="w-100 rounded-4" alt="Banner">
+      </div>
+
+      <!-- catalog -->
+      <h3 class="text-center">Apa itu Mochi</h3>
+      <div class="text-center w-50 mx-auto fw-light">
+        <b>Mochi</b> Moci (Jepang: 餅, Mochi; Hanzi: (麻糬)) adalah kue Jepang yang terbuat dari beras ketan, ditumbuk sehingga lembut dan lengket, kemudian dibentuk menjadi bulat. Di Jepang, kue ini sering dibuat dan dimakan pada saat perayaan tradisional mochitsuki atau perayaan tahun baru Jepang.
+      </div>
+
+      <div class="row row-cols-md-3 row-cols-2 gx-4 p-5">
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="image/gb2.jpg" class="card-img-top" alt="Matcha">
+            <div class="card-body">
+              <p class="card-text">Matcha dibuat dari teh hijau yang disebut Tencha. Di perkebunan, tanaman ditutup dengan jerami atau kerai agar daun teh tidak terkena sinar matahari langsung (sama dengan cara pembuatan teh hijau Gyokuro).</p>
+            </div>
+            <div class="card-footer d-flex">
+              <button class="btn btn-sm btn-primary d-block btnDetail" data-bs-toggle="modal" data-bs-target="#productModal" data-title="Matcha" data-description="Matcha dibuat dari teh hijau yang disebut Tencha. Di perkebunan, tanaman ditutup dengan jerami atau kerai agar daun teh tidak terkena sinar matahari langsung (sama dengan cara pembuatan teh hijau Gyokuro)." data-price="Rp. 20.000,00/6pcs" data-image="image/gb2.jpg">Detail</button>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 20.000,00/6pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="image/gb3.jpg" class="card-img-top" alt="Coklat">
+            <div class="card-body">
+              <p class="card-text">Pilihan klasik yang memadukan kekenyalan tepung ketan dengan lelehnya coklat. Dibentuk menjadi bola-bola kecil, Mochi bites ini cocok untuk dinikmati sebagai camilan atau pencuci mulut yang memanjakan.</p>
+            </div>
+            <div class="card-footer d-flex">
+              <button class="btn btn-sm btn-primary d-block btnDetail" data-bs-toggle="modal" data-bs-target="#productModal" data-title="Coklat" data-description="Pilihan klasik yang memadukan kekenyalan tepung ketan dengan lelehnya coklat. Dibentuk menjadi bola-bola kecil, Mochi bites ini cocok untuk dinikmati sebagai camilan atau pencuci mulut yang memanjakan." data-price="Rp. 15.000,00/3pcs" data-image="image/gb3.jpg">Detail</button>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 15.000,00/3pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="image/gb5.jpg" class="card-img-top" alt="Keju">
+            <div class="card-body">
+              <p class="card-text">Kombinasi gurih dari keju mozzarella dengan kekenyalan mochi menciptakan cita rasa yang lezat. Enak disajikan sebagai camilan maupun pencuci mulut setelah makan terbuat dari susu sapi alami.</p>
+            </div>
+            <div class="card-footer d-flex">
+              <button class="btn btn-sm btn-primary d-block btnDetail" data-bs-toggle="modal" data-bs-target="#productModal" data-title="Keju" data-description="Kombinasi gurih dari keju mozzarella dengan kekenyalan mochi menciptakan cita rasa yang lezat. Enak disajikan sebagai camilan maupun pencuci mulut setelah makan terbuat dari susu sapi alami." data-price="Rp. 16.000,00/3pcs" data-image="image/gb5.jpg">Detail</button>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 16.000,00/3pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="image/gb6.jpg" class="card-img-top" alt="Taro">
+            <div class="card-body">
+              <p class="card-text">Mochi taro menghadirkan rasa manis dan creamy dari bubuk taro yang dicampur dengan tepung ketan. Sajikan bola-bola kecil ini sebagai camilan lezat yang menggugah selera sebagai camilan ringan.</p>
+            </div>
+            <div class="card-footer d-flex">
+              <button class="btn btn-sm btn-primary d-block btnDetail" data-bs-toggle="modal" data-bs-target="#productModal" data-title="Taro" data-description="Mochi taro menghadirkan rasa manis dan creamy dari bubuk taro yang dicampur dengan tepung ketan. Sajikan bola-bola kecil ini sebagai camilan lezat yang menggugah selera sebagai camilan ringan." data-price="Rp. 8.000,00/2pcs" data-image="image/gb6.jpg">Detail</button>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 8.000,00/2pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="image/gb7.jpg" class="card-img-top" alt="Strawberry">
+            <div class="card-body">
+              <p class="card-text">Pilihlah mochi strawberry. Dibuat dengan menghaluskan strawberry dan dipadukan dengan kekenyalan mochi memunculkan rasa manis dan asam yang cocok untuk dinikmati di siang hari yang panas.</p>
+            </div>
+            <div class="card-footer d-flex">
+              <button class="btn btn-sm btn-primary d-block btnDetail" data-bs-toggle="modal" data-bs-target="#productModal" data-title="Strawberry" data-description="Pilihlah mochi strawberry. Dibuat dengan menghaluskan strawberry dan dipadukan dengan kekenyalan mochi memunculkan rasa manis dan asam yang cocok untuk dinikmati di siang hari yang panas." data-price="Rp. 8.000,00/3pcs" data-image="image/gb7.jpg">Detail</button>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 8.000,00/3pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card shadow">
+            <img src="image/gb8.jpg" class="card-img-top" alt="Mango">
+            <div class="card-body">
+              <p class="card-text">Ingin sensasi manis yang menyegarkan? Mochi mango adalah jawabannya pas untuk menikmati manis. Mangga yang dihaluskan dan dipadukan dengan kekenyalan mochi menciptakan kombinasi yang tak terlupakan.</p>
+            </div>
+            <div class="card-footer d-flex">
+              <button class="btn btn-sm btn-primary d-block btnDetail" data-bs-toggle="modal" data-bs-target="#productModal" data-title="Mango" data-description="Ingin sensasi manis yang menyegarkan? Mochi mango adalah jawabannya pas untuk menikmati manis. Mangga yang dihaluskan dan dipadukan dengan kekenyalan mochi menciptakan kombinasi yang tak terlupakan." data-price="Rp. 12.000,00/3pcs" data-image="image/gb8.jpg">Detail</button>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 12.000,00/3pcs</span>
+            </div>
+          </div>
+        </div>
+      
+      <!-- Modal untuk detail produk -->
+      <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="productModalLabel">Detail Produk</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img id="productImage" src="" class="img-fluid mb-3" alt="Product Image">
+              <h5 id="productTitle"></h5>
+              <p id="productDescription"></p>
+              <p id="productPrice" class="text-danger fw-bold"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+        <footer class="bg-secondary text-white pt-8" style="width: 100%;">
+        <div class="container">
+          <div class="row">
+            <!-- About Us -->
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4" id="Tentang kami">Tentang Kami</h5>
+              <p>Mochichi adalah toko online yang menyediakan berbagai macam mochi dengan rasa yang beragam dan lezat. Kami berkomitmen untuk memberikan produk berkualitas kepada pelanggan kami.</p>
+            </div>
+
+               <!-- Contact -->
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Kontak</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Karya bahana mandiri, Indonesia</li>
+                <li class="mb-2"><i class="fas fa-phone me-2"></i> 0877-3526-1096</li>
+                <li class="mb-2"><i class="fas fa-envelope me-2"></i> support@Mochichi.com</li>
+              </ul>
+            </div> 
+
+            <!-- social media -->
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+             <h5 class="text-uppercase mb-4">Follow Us</h5>
+             <div class="social-media">
+             <a href="https://www.facebook.com/share/fam5wPnu9MWY7UPA/?mibextid=qi2Omg" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/abcd_efghijklmnopq20?igsh=MWdwc3hxZHdxOHNpcw==" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/6283877502856" class="text-white me-4" target="_blank"><i class="fab fa-whatsapp"></i></a>
+           </div>
+          </div>
+
+
+       <!-- Copyright -->
+        <div class="text-center py-3">
+          <p class="mb-0">© 2024 Mochichi. All Kelompok 5.</p>
+        </div>
+      </footer> 
+
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      // Event listener for modal show
+      var productModal = document.getElementById('productModal');
+      productModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var title = button.getAttribute('data-title');
+        var description = button.getAttribute('data-description');
+        var price = button.getAttribute('data-price');
+        var image = button.getAttribute('data-image');
+
+        var modalTitle = productModal.querySelector('.modal-title');
+        var modalBodyDescription = productModal.querySelector('#productDescription');
+        var modalBodyPrice = productModal.querySelector('#productPrice');
+        var modalBodyImage = productModal.querySelector('#productImage');
+
+        modalTitle.textContent = title;
+        modalBodyDescription.textContent = description;
+        modalBodyPrice.textContent = price;
+        modalBodyImage.src = image;
+      });
+    </script>
+  </body>
+</html>
